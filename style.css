@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.402);
+    /* height: 80vh; */
+    padding: 1rem;
+}
+
+nav i{
+    font-size: 35px;
+    justify-content: end;
+}
+
+a{
+    text-decoration: none;
+    margin: 2rem;
+    color: black;
+    font-weight: bold;
+}
+
+a:hover{
+    height: 2rem;
+    width: 2rem;
+    /* background-color: red; */
+    color: aqua;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: 2s;
+    /* border-radius: 1.8rem; */
+}
+
+#hero{
+    background-image: url("https://images.pexels.com/photos/1229356/pexels-photo-1229356.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#hero h2{
+    color: rgba(40, 38, 38, 0.299);
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+#hero h2:hover{
+    color: aqua;
+    transition: 2s;
+}
+
+#about{
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left,.right{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.right h2{
+    margin: 2rem;
+}
+
+.left img{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 0.8rem;
+    box-shadow:  0.4rem 0.4rem 0.4rem 0.4rem #131313 ;
+}
+.left img:hover{
+    transform: scale(1.5);
+}
+
+#service{
+    height: 80vh;
+    display: flex;
+    flex-direction: column; 
+}
+
+#service h2{
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    background-color: #13131321;
+    width: 20rem;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    box-shadow: 0.4rem 0.4rem 0.4rem 0.4rem #131313; 
+    transition: 2s;
+
+ } 
+
+.card img{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover{
+    filter: brightness(70%);
+    background-color:rgba(255, 0, 0, 0.299) ;
+    transform: scale(1.5);
+}
+
+#contact{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input,textarea{
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 1rem 4rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+input:focus{
+    outline: none;
+}
+
+ #contact #btn{
+    background-color:rgba(255, 0, 0, 0.299);
+}
+
+#contact #btn:hover{
+    color: black;
+    cursor: pointer;
+    background-color: aqua;
+    transition: 2s;
+    border-radius: 0.8rem;
+    border: 1px solid black;
+}
+
+#contact h2{
+    margin: 2rem 0;
+
+}
+
+
+footer{
+    background-color: rgba(40, 38, 38, 0.299);
+    color: white;
+    text-align: center;
+}
